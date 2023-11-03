@@ -1,0 +1,95 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Outfit:wght@300;400;600&display=swap');
+
+*{
+
+padding: 0;
+box-sizing: border-box;
+margin: 0;
+}
+  body{
+    background-color:hsl(215, 51%, 70%);
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+.box{
+    width: 270px;
+    background-color: #164863;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    place-items: center;
+    border-radius: 20px;
+    
+    
+}
+
+
+
+
+.pic{
+    display: grid;
+    place-items: center;
+    
+}
+
+
+
+img{
+    width: 180px;
+    border-radius: 15px 15px 15px 15px;
+    margin-top: 30px;
+      
+}
+
+.side{
+    margin-left: 20px;
+}
+.clock{
+   display:flex;
+   justify-content:space-between;
+   align-items:center;
+
+}
+
+.pic1{
+    width: 10px;
+   
+
+}
+
+.pic2{
+    width: 10px;
+}
+
+.pic3{
+    border-radius: 50%;
+    width: 20px;
+    height: 40px;
+    padding-top: 18px;
+}
+
+.last{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+hr{
+    border: 1.5px solid  wheat;
+    margin-top: 20px;
+}
+h3 {
+    color:white ; 
+    padding: 20px;
+}
+h3:hover{
+    color: aqua;
+    cursor:pointer;
+}
+    
+.sp{
+    color: aqua;
+
+}
+
